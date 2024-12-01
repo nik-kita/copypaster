@@ -26,6 +26,4 @@ if (error) {
   Deno.exit(1);
 }
 
-console.log("✅ Valid env:", env);
-
 export default env!;

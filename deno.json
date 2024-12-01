@@ -8,5 +8,8 @@
   ],
   "tasks": {
     "api": "deno run -NRES --unstable-kv api/main.ts"
+  },
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.8"
   }
 }
