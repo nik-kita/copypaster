@@ -1,0 +1,18 @@
+{
+  "version": "0.0.0",
+  "name": "@copypaster/api",
+  "exports": "./main.ts",
+  "imports": {
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.18.3",
+    "@scalar/hono-api-reference": "npm:@scalar/hono-api-reference@^0.5.162",
+    "@std/collections": "jsr:@std/collections@^1.0.9",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
+    "@std/text": "jsr:@std/text@^1.0.8",
+    "hono": "npm:hono@^4.6.12",
+    "hono-pino": "npm:hono-pino@^0.7.0",
+    "pino": "npm:pino@^9.5.0",
+    "pino-pretty": "npm:pino-pretty@^13.0.0",
+    "stoker": "npm:stoker@^1.4.2",
+    "zod": "npm:zod@^3.23.8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "workspace": [
+    "./api"
+  ],
+  "exclude": [
+    "*",
+    "!api"
+  ],
+  "tasks": {
+    "api": "deno run -NRES --unstable-kv api/main.ts"
+  }
+}
